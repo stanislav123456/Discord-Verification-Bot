@@ -1,7 +1,7 @@
 import discord
 import json
 
-client = discord.Client()
+client = discord.Client("NTQwOTI0MDA2ODU3OTY1NTc4.Dzx_5Q.kXxGdUCPjQNYuwPrsG1nYR4PKsg")
 
 try:
     config = json.loads(open('config.json').read())
